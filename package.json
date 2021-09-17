@@ -1,0 +1,31 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "\"# GraphQL-server\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SherlokMo/GraphQL-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SherlokMo/GraphQL-server/issues"
+  },
+  "homepage": "https://github.com/SherlokMo/GraphQL-server#readme",
+  "dependencies": {
+    "apollo-server-express": "^3.3.0",
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "express-jwt": "^6.1.0",
+    "graphql": "^15.5.3",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.5"
+  }
+}
